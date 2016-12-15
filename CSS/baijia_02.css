@@ -1,0 +1,77 @@
+*{color:#606a77;}
+.banner{width:1250px; height:500px; margin:0 auto; position:relative;}
+.banner .bannerWrap{display:block; width:100%; height:100%; }
+.banner .opacity{position:absolute;filter:alpha(opacity=40);opacity:0.4;background:#fff;top:0;right:0;bottom: 0;left:0; z-index: 10;}
+.banner .product{position:absolute;left:60px;top:100px;right:760px;bottom: 0;z-index:20;}
+.banner .product h3{color:#fe8005;font-family: 宋体;font-size:30px;}
+.banner .product span{line-height: 50px;font-size:16px;color:#797d87;}
+.banner .product p{line-height:20px;color:#87898a; background:#eeefef; padding:8px 13px; text-align:justify; position:absolute; top:100px;}
+/*.banner .arrow_r{width:32px;height:32px;background:url(../images/arrow_right.png) no-repeat;border-radius: 50%; position: absolute;top:250px;left:1195px;z-index:30;cursor: pointer;}
+.banner .arrow_l{width:32px;height:32px;background:url(../images/arrow_left.png) no-repeat;border-radius: 50%; position: absolute;top:250px;left:17px;z-index:30;cursor: pointer;}
+.banner .pages_dots{position: absolute;left:590px;bottom:20px;z-index:30;}
+.banner .pages_dots .dots{width:15px;height:15px;float:left;margin-right:15px;background:#d8d8d8; border-radius:50%;}
+.banner .pages_dots .dots:hover{background:#919191;}*/
+
+/*.banner i{ position:absolute; top:208px; width:25px; height:44px; z-index:1; opacity:0; transition:opacity .5s; }
+.banner i:hover{ opacity:1; }
+.banner:hover i{ opacity:.5;}*/
+.banner .current{ z-index:1; }
+/*.banner .previous{ left:66px; background-position:0 -37px; }
+.banner .next{ right:66px; background-position:-26px -37px; }*/
+
+.block{width:1106px;margin: 0 auto;}
+.welcome{text-align: center;}
+.welcome h2{color:#797979;font-family: 宋体;font-size:30px;padding-top:45px;}
+.welcome span{line-height:54px;font-size:16px;}
+.flatLabBox{float:left; width:315px; margin-top: 35px; padding:5px; position:relative;}
+.flatLabBox .box{ width:315px; height:165px; border-radius: 10px; opacity:0.7; filter:alpha(opacity=70); }
+.flatLabBox span{width:200px; font-size:16px; line-height:18px; color:#fff; position:absolute; left:60px; top:65px;}
+.flatLabBox .box:hover{opacity:1; filter:alpha(opacity=100);}
+.flatLabBox p{line-height:18px;font-size:12px; text-align:justify; padding:15px;}
+.developer{width:1106px;margin-top:82px;}
+.developer .developer_code{width:802px;background:#262627;float: left; border-radius:5px;text-align:left;padding:22px 0 22px 21px; position:relative;}
+.developer .developer_code span{color: #fff;font-family: 宋体;font-size:18px;line-height:18px;}
+.developer .developer_code p{color:#9eb3c4;padding-top:12px;}
+.developer .purchase{float:right; width:256px; height:87px; border-radius:5px;background:#ea7f0d; color:#fff; font-family:宋体; font-size:26px; line-height:87px;}
+.developer img{position:absolute; width:100px; height:70px; left:710px; top:12px;}
+
+.design{padding-top:210px;}
+.design .computer{width:470px; height:310px; float:left; background:url(../images/tencent_game.jpg); background-size:100% 100%;}
+.design .trend_design{float:right;width:512px;text-align:left;}
+.design .trend_design h3{font-family:宋体;font-size:24px;color:#797979;padding:24px 0;}
+.design .trend_design p{line-height:22px;text-align:justify;padding-bottom:40px;}
+.design .trend_design .purchase{width:186px;height:62px;border-radius:5px;background:#475168;color:#fff;
+		font-size:14px;line-height:62px;text-align:center;}
+
+.news{padding-top:160px;}
+.news .news_block{float:left;}
+.news .news_block .title .news_box{margin-right:1px;float:left;width:180px;height:52px;color:#fff;background:#6f6f6f; line-height:52px;font-size:14px;position:relative;}
+.news .news_block .title .news_box:hover{background:#fff;color:#6f6f6f;cursor:pointer;}
+.news .news_block .title .news_box .nb{position:absolute;}
+.title .news_box .nb .nb_0{padding:6px;}
+.news .news_block .title .news_box .nb .pic{float:left;width:50px;height:50px;background:yellow;}
+.news .news_block .title .news_box .nb .con{float:left;}
+
+.recent{width:1250px; margin:0 auto; padding:0 200px; margin-top:60px;}
+.recent h2{font-size:20px;line-height:48px; margin-bottom:5px; color:#e44e04;}
+.recent .newsBox{float:left; margin:0 14px; }
+.recent .newsBox img{width:260px; height:190px;}
+.recent .newsBox a{display:block; font-size:12px; text-align:center;line-height:20px;color:#262627;}
+.recent .newsBox a:hover{color:red;}
+
+.adv{width:1055px; height:436px; margin:100px auto; margin-bottom:60px; padding:0 90px; background:url(../images/dota_forever.jpg); background-size:100% 100%; position:relative;}
+.adv .opacity{position:absolute;filter:alpha(opacity=20);opacity:0.2;background:#fff;top:0;right:0;bottom:0;left:0; }
+.adv h2{position:absolute; z-index:10; font-size:60px; top:120px; left:360px; color:#fff;}
+.adv p{font-size:20px; position:absolute; top:250px; left:250px; color:#fff;}
+
+.authors{width:1250px;margin:0 auto; overflow:hidden;}
+.authors h2{font-size:24px; margin-bottom:10px;}
+.authors span{color:#999; }
+.authors .authorBox{float:left; overflow:hidden; margin-top:20px;}
+.authors .authorBox .authorPic img{width:65px; height:65px; border-radius:50%; display:block; float:left; margin-right:6px;}
+.authors .authorBox div{float:left; width:225px;}
+.authors .authorBox div .authorName{font-size:12px; color:#262627; font-weight:bold;}
+.authors .authorBox div p{font-size:12px; line-height:24px; color:#999;}
+.authors .authorBox div .newest{font-size:12px; color:#262627;}
+.authors .authorBox div .authorName:hover,.authors .authorBox div .newest:hover{color:#d80707;}
+.foot{padding:58px;}

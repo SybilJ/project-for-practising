@@ -1,0 +1,29 @@
+.bannerBlock, .hotArtical{width:1250px; margin:0 auto; padding:60px 70px; overflow:hidden;}
+.bannerBlock .bannerLeft{float:left; width:700px; height:250px;}
+.bannerBlock .bannerLeft h3{font-size:20px; line-height:52px;}
+.bannerBlock .bannerLeft p{text-align:justify; line-height:24px;}
+.bannerBlock .bannerRight{float:right; width:470px; height:260px; position:relative;}
+.bannerBlock .bannerRight .opacity{position:absolute; background:#000; filter:alpha(opacity=50); opacity:0.5; top:216px; bottom:0; left:0; right:0; z-index:10;}
+.bannerBlock .bannerRight span{position:absolute; z-index:20; top:230px; left:200px; color:white; }
+
+.authors{width:1250px; margin:0 auto; overflow:hidden; border-top:1px solid #e7e6e6; border-bottom:1px solid #e7e6e6; padding-top:85px; padding-bottom:50px; margin-top:60px;}
+.authors h2, .hotArtical h2{font-size:24px; margin-bottom:10px; text-align:center; font-weight:bold; font-size:40px; font-family:宋体; color:#262627;}
+.authors p, .hotArtical p{color:#999; text-align:center; line-height:30px;}
+.authors .authorBox{float:left; margin:30px 45px; height:85px;}
+.authors .authorBox .authorPic img{width:70px; height:70px; border-radius:50%; display:block; float:left; margin-right:10px;}
+.authors .authorBox div{float:left; width:245px;}
+.authors .authorBox div .authorName{font-size:16px; color:#262627; font-weight:bold;}
+.authors .authorBox div p{font-size:12px; line-height:26px; color:#999; text-align:left;}
+.authors .authorBox div .newest{font-size:12px; color:#262627;}
+.authors .authorBox div .authorName:hover,.authors .authorBox div .newest:hover{color:#d80707;}
+
+.hotArtical{padding-top:85px;}
+.headBlock .headBox{width:24.8%; height:70px; float:left; background:#5d8bc3; margin:1px; border-radius:8px 8px 0 0; cursor:pointer; margin-top:15px;}
+.headBlock .headBox:hover{background:#e2dfdf;}
+.headBlock .headBox p{color:#e7e9eb; width:75%; margin-left:; line-height:20px; margin-left:37px; margin-top:16px;}
+.headBlock .headBox:hover p{color:#5d8bc3; font-weight:bold;}
+.contentWrap .contentBody{float:left; padding:18px;}
+.contentWrap .contentBody img{ float:left; width:280px; height:200px; margin-right:20px; }
+.contentWrap .contentBody p{text-align:justify; line-height:26px; text-indent:2em;}
+.contentWrap .contentBody a{float:right;color:#e19002; border:1px solid #e19002; border-radius:3px; font-size:12px; padding:2px 5px; margin-right:5px;}
+.contentWrap .contentBody a:hover{color:red; border:1px solid red;}

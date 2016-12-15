@@ -1,0 +1,31 @@
+/* 共用的样式 */
+*{margin:0;padding: 0;font-family: Arial;color:#999999;font-size:14px;border:none;font-family:微软雅黑;}
+ul,li{list-style: none;margin: 0;padding:0;border:none;}
+a{text-decoration: none;cursor:pointer;}
+/*top*/
+.clear{clear:both;}
+.top{width:1250px;margin:0 auto;padding:33px 0;}
+.logo{width:170px;height:55px;background: url(../images/logo.png) no-repeat;float: left;
+	background-size:100%;margin-left:62px;}
+.top_right{float:right;margin-right:62px;}
+.top_right li{float:left;padding:14px 16px;border-radius: 5px;}
+.top_right .abt:hover{background:#f77b6f;color:#fff;}
+.head{width:1250px;margin:0 auto;background:#262627;padding:0 59px;line-height:116px;}
+.about_us{float:left;font-size:24px;font-weight:bold;color:#fff;font-family: 宋体;}
+.head_r{float:right;color:#f76e6a;font-size:10px;}
+.head_r:hover{color:#fff;}
+.head span{float:right;color:#fff;padding:0 8px;}
+/*bottom*/
+.section_1{width:1250px;margin:0 auto;padding:38px 0;}
+.foot{width:1250px; background:#262627;  padding:52px 58px;margin-top:40px;}
+.foot p,.foot li{color:#fff;}
+.foot .title{font-family: 宋体;font-size:22px;line-height:36px;margin-bottom:5px;}
+.f_left{margin-right:140px;float:left;text-align:left;}
+.f_left .contact li{line-height:28px; font-size:12px;}
+.f_left .contact li span{color:#f37569;}
+.f_middle{margin-right:350px;float:left;width:228px;text-align:left;}
+.f_middle .more_r{color:#fff;line-height:28px;display:block;font-size:12px;}
+.f_middle .more_r:hover{color:#f37569;}
+.f_right{float:left;text-align:left;}
+.f_right .stay{margin-top:5px;margin-left: -5px;}
+.f_right .stay li{float:left;width:48px;height: 48px;background:#505b71;margin:5px;}

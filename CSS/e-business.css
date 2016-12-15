@@ -1,0 +1,56 @@
+/*e-business 电商*/
+.main_top, .highlights, .dropcap, .blockquote, .oList, .gridsBlock{width:1250px; margin:0 auto; padding:35px 50px; overflow:hidden;}
+.main_top .starred_artical{float:left; width:465px; padding:10px; padding-left:45px;}
+.main_top .starred_artical h3{font-size:18px; line-height:30px; padding-bottom:5px;}
+.main_top .starred_artical p{line-height:26px; text-align:justify;}
+.main_top .hotArtical{float:left; padding:12px; line-height:26px; }
+.main_top .hotArtical h3{font-size:16px;font-weight:bold; color:#ce5029; }
+.main_top .hotArtical span{display:block; width:100%; color:#ccc; font-size:12px; line-height:24px; margin-bottom:5px;}
+.main_top .hotArtical a{display:block;color:#06b10a;}
+.main_top .hotArtical a:hover{color:#c5c5c5;}
+.main_top .authors{width:315px; float:left; padding-left:50px;}
+.main_top .authors .authorBox{overflow:hidden;}
+.main_top .authors .authorBox .picImg{display:block; float:left; width:55px; height:55px; border-radius:50%; }
+.main_top .authors .authorBox .details{float:left; width:245px;margin-left:10px;margin-bottom:15px;}
+.main_top .authors .authorBox .details span{font-weight:normal;font-size:12px;line-height:24px;}
+.main_top .authors .authorBox .details a{display:block;font-weight:normal;font-size:12px; color:#1f1f1f;}
+.main_top .authors .authorBox .details h3{font-weight:bold; color:#1f1f1f;}
+.main_top .authors .authorBox .details h3:hover, .main_top .authors .authorBox .details a:hover{color:#d80707;}
+.main_top .authors .related{border-bottom:2px solid #ccc; width:100%; text-align:center; margin-bottom:10px;}
+.main_top .authors .related h3{color:#333; font-size:16px;}
+.main_top .authors .related span{color:#ccc; font-size:12px; line-height:24px;}
+/*.main_top .authors .authorBox .details img{width:15px; height:15px; display:block; float:left;}*/
+.highlights{padding-top:0;}
+.highlights .hlWrapper{margin-bottom:20px;}
+.highlights .hlWrapper h2{font-size:18px;line-height:34px;}
+.highlights .hlWrapper p{line-height:24px;padding:10px; text-align:justify;}
+.highlights .hlWrapper a{padding:10px;color:#e19002;}
+.highlights .hlWrapper a:hover{color:#d80707;}
+
+.dropcap .drpBox{float:left; width:580px; padding:5px; position:relative;height:180px; }
+.dropcap .drpBox h2{font-size:18px; line-height:34px; margin-bottom:6px;}
+.dropcap .drpBox .content img{display:block; float:left; width:45px; height:45px; margin-right:3px;}
+.dropcap .drpBox .content p{ text-align:justify; line-height:24px;}
+.dropcap .drpBox .content a{position:absolute; bottom:0; left:5px; color:#e19002;}
+.dropcap .drpBox .content a:hover{color:#d80707; }
+.blockquote .bqWrapper h2{font-size:18px;line-height:34px; margin-bottom:5px;}
+.blockquote .bqWrapper span{}
+.blockquote .bqWrapper p{padding:20px 30px 5px 30px; line-height:24px;}
+.blockquote .bqWrapper a{color:#e19002; margin-left:30px;}
+.blockquote .bqWrapper a:hover{color:#d80707;}
+
+/*.oList h2{font-size:18px;line-height:34px; font-style:italic; padding-left:12px; display:block; font-weight:bold; color:#a3d8f8; }*/
+.oList .relatedMore:hover{float:right; line-height:34px; font-size:12px; color:#e19002;}
+.oList .oList_box{float:left; padding:10px 33px; border:2px solid #a3d8f8; background:#dcfaf7; width:40.5%; margin:5px 20px;}
+.oList .oList_box span{font-size:19px; font-style:italic; margin-right:10px; padding:0 5px; border-radius:14px 0 0 0 ;}
+.oList .oList_box p:hover a{color:#e05a5a; font-weight:bold;}
+.oList .oList_box p:hover span{color:#fff; background:#e05a5a;}
+
+.gridsBlock h2, .oList h2{float:left; font-size:18px; line-height:34px; margin-bottom:6px; padding-left:12px; color:#a3d8f8; font-style:italic;}
+.gridsBlock .relatedMore, .oList .relatedMore{float:right; line-height:34px; font-size:12px; color:#e19002;}
+.gridsBlock .oThirdBox{width:27.5%; height:190px; float:left; padding:10px 36px; position:relative; overflow:hidden;}
+.gridsBlock .oThirdBox h3, .gridsBlock .oFourthBox h3{font-size:16px; padding:3px 0; font-family:宋体; text-decoration: underline; color:#559bc6;}
+.gridsBlock .oThirdBox h3:hover, .gridsBlock .oFourthBox h3:hover, .gridsBlock .relatedMore:hover, .oList .relatedMore:hover{color:#e05a5a;}
+.gridsBlock .oThirdBox p{position:absolute; top:60px; }
+.gridsBlock .oFourthBox{ float:left; width:21%; height:190px; padding:10px 14px 10px 36px; margin-top:20px; position:relative; overflow:hidden; }
+.gridsBlock .oFourthBox p{ position:absolute; top:60px;}

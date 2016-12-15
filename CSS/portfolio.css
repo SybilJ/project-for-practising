@@ -1,0 +1,19 @@
+.section_1{width:1250px;margin:0 auto;padding:38px 0;}
+
+.section_1 .tagNav .nav{padding:15px; overflow:hidden;}
+.section_1 .tagNav .nav .abt{margin-right:10px;background:#e2e0e1;float:left;padding:17px 20px;border-radius: 5px; font-size:14px; cursor:pointer;}
+.section_1 .tagNav .nav .abt:hover{background:#a3c9e0; color:#0c4a70; font-weight:bold;}
+
+.products_sec{padding-top:23px;}
+.products_sec .vedioBox{overflow:hidden;}
+.products_sec .products_list{padding-top:25px;}
+.products_sec .products_list .product{position:relative;float:left;width:293px;height:178px;margin-bottom:25px;}
+.products_sec .products_list .pro{margin-right:0;}
+.products_list .opacity{position:absolute;top:0;right:0;bottom:0;left:0;background:black; filter:alpha(opacity=30);opacity:0.3;display:none;}
+.product:hover .opacity{display:block;cursor:pointer;}
+.left_circle,.right_circle{position:absolute;z-index:10;width:45px;height:45px; background:#fff;border-radius:50%;top:80px;display:none;}
+.left_circle{position:absolute;left:85px;}
+.right_circle{position:absolute;left:161px;}
+.product:hover .left_circle,.product:hover .right_circle,.products_list .product:hover span{display:block;}
+.products_list .product span{color:#fff; position:absolute; z-index:10;top:40px; left:65px; width:180px; font-size:14px; display:none;}
+.foot{padding:52px 38px;}

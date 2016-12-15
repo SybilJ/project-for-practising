@@ -1,0 +1,19 @@
+/*contact*/
+*{color:#757373;}
+.blank{height:480px; width:1250px; margin:0 auto; background:url(../images/contactBn.jpg); background-size:100%;}
+
+.mainBody{width:1250px;margin:0 auto;padding:38px 0;}
+.main_left{float:left;width:400px;}
+.main_right{float:right;width:708px;height:570px;}
+.main_left h3,.main_right h3{font-family:宋体;font-size:20px;line-height:60px;}
+.main_right h3{width:98%;display:block; background:#7e7c7c; color:#fff; margin-bottom:10px; border-radius:3px; padding-left:18px;}
+.main_left p{font-size:14px;line-height:22px;}
+.main_left .contact1{padding-bottom:68px;}
+.main_right span{font-weight:bold;display:block;}
+.main_right input{border-radius:2px;width:696px;height:37px;line-height:37px;font-size:20px;
+			border:1px solid #e2e2e4;padding-left:10px;margin-bottom:8px;}
+.main_right form span{line-height:32px;}
+.main_right textarea{border-radius:2px;width:696px;font-size:20px;border:1px solid #e2e2e4;padding:10px;}
+.main_right .submit{font-family:Calibri;background:#ff6c60;color:#fff;line-height:39px;padding:0 14px;
+			font-size:20px;width:90px;height:40px;border-radius:5px;margin-top:18px;outline:none;cursor:pointer;}
+.foot{padding:58px;}

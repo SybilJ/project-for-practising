@@ -1,0 +1,52 @@
+/*Blog*/
+.main_body{width:1250px;padding:0 64px;margin:0 auto;}
+.main_sections{float:left;}
+.main_sections .sec{padding:40px 0;border-bottom:1px dashed #dddddd;}
+.sec_top .date{float:left;}
+.sec_top .date li{width:122px;text-align: center;}
+.sec_top .date .day{height:66px;line-height:66px;background:#f77b6f;color:#fff;font-size:36px;border-radius:5px 5px 0 0;}
+.sec_top .date .month{font-size:20px;background:#f6f5f0;height:48px;line-height:48px;}
+.sec_top .date .num{height:88px;line-height:88px;font-size:16px;border-radius:0 0 5px 5px;}
+.sec_top .date .none{height:20px;}
+.sec_top .sec_cover{margin-left:32px;float:left;width:813px;height:419px;
+			background:url(../images/artical_1.jpg) no-repeat;background-size:100%;}
+.sec_bottom .relatedInfo{float:left;padding-top:32px;}
+.sec_bottom .relatedInfo li{color:#444e67;width:90px;text-align:right;font-size:16px;line-height:20px;}
+.sec_bottom .relatedInfo .author{height:50px;font-size:20px;}
+.sec_bottom .relatedInfo .classify{font-size:30px;color:#ccc;}
+.sec_bottom .relatedInfo .view{line-height:44px;font-size:14px;color:#f77b6f;}
+.sec_bottom .relatedInfo .share{color:#f77b6f;font-size:14px;}
+.sec_bottom .article{float:left;padding-left:64px;width:813px;}
+.sec_bottom .article h3{font-size:30px;font-family:宋体;color:#4a4a4b; margin-top:25px;}
+.sec_bottom .article p{color:#797979;line-height:24px;padding-top:20px;font-size:16px;margin-bottom:13px; text-align:justify;}
+.sec_bottom .article .continue{background:#ff6c60;padding:12px;border-radius:5px;color:#fff;font-size:14px;display:block;margin-top:15px;width:88px;}
+.sec_bottom .article .continue:hover{color:#383838; font-weight:bold; background:#fe8980;}
+.pages{padding-top:40px;margin-left:43%;margin-bottom:75px;}
+.pages li{float:left;width:32px;height:32px;line-height:32px;text-align:center;color:#444e67;border:1px solid #dddddd;margin-left:-1px;}
+.pages li:hover{background:#ff6c60;cursor:pointer;color:#fff;}
+.main_sections .sec_page{border-bottom:none;}
+
+.sideBlock{float:right; width:235px; padding-top:40px;}
+.sideBlock .txt{padding:8px 13px; width:160px; border:1px solid #ccc; border-right:none; border-radius:5px 0 0 5px; font-size:14px; margin-bottom:25px; outline:none; float:left;}
+.sideBlock .btn{width:37px; height:37px; border:1px solid #ccc; border-left:none; border-radius:0 5px 5px 0; float:left; background:url(../images/search.png) no-repeat 5px 6px; background-size:70%; cursor:pointer; outline:none;}
+
+.sideBlock .cateWrapper h3, .sideBlock .postWrapper h3, .sideBlock .tags h3, .sideBlock .archive h3{font-size:20px; font-family:宋体;line-height:52px; color:#0e3c6b;}
+.sideBlock .cateWrapper ul li{font-size:16px; line-height:30px; width:175px; margin:1px; padding:2px 15px; background:#4da1f8; color:#fff; text-align:center; border-radius:3px; cursor:pointer;}
+.sideBlock .cateWrapper ul li:hover{background:#92c5fa; color:#0e3c6b; font-weight:bold;}
+
+.sideBlock .postWrapper ul li{height:82px; width:100%; margin-bottom:20px;}
+.sideBlock .postWrapper ul li .blogEntrance{float:left; width:78px; height:78px; margin-right:10px; }
+.sideBlock .postWrapper ul li div{float:left; width:130px;}
+.sideBlock .postWrapper ul li div span{font-size:14px; color:#0e3c6b;}
+.sideBlock .postWrapper ul li div .blogBelongs{display:block; font-size:12px; color:#969595; line-height:26px;}
+.sideBlock .postWrapper ul li div .artical{display:block; font-size:12px; color:#807f7f; }
+.sideBlock .postWrapper ul li div .blogBelongs:hover, .sideBlock .postWrapper ul li div .artical:hover{color:red;}
+.sideBlock .newestPost, .sideBlock .tags, .sideBlock .archive{margin-top:40px;}
+
+.sideBlock .tagsBox ul li{float:left; padding:5px 10px; margin-bottom:8px; margin-right:10px; border:1px solid #cfcdcd; border-radius:4px; font-size:12px; cursor:pointer;}
+.sideBlock .tagsBox ul li:hover{color:#00b9fe; border:1px solid #55cffc; background:#edecec;}
+
+.sideBlock .archive ul li{margin-left:20px;line-height:28px; font-size:16px; cursor:pointer; color:#999;}
+.sideBlock .archive ul li:hover{color:#1a83e5;}
+.sideBlock .archive ul .checkMore{font-size:14px; color:#f77b6f;}
+.foot{padding:50px;}
