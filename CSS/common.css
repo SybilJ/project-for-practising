@@ -9,7 +9,8 @@ a{text-decoration: none;cursor:pointer;}
 	background-size:100%;margin-left:62px;}
 .top_right{float:right;margin-right:62px;}
 .top_right li{float:left;padding:14px 16px;border-radius: 5px;}
-.top_right .abt:hover{background:#f77b6f;color:#fff;}
+.top_right .abt:hover{background:#f77b6f;}
+.top_right .abt:hover a{color:#fff;}
 .head{width:1250px;margin:0 auto;background:#262627;padding:0 59px;line-height:116px;}
 .about_us{float:left;font-size:24px;font-weight:bold;color:#fff;font-family: 宋体;}
 .head_r{float:right;color:#f76e6a;font-size:10px;}
