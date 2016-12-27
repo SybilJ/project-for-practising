@@ -20,6 +20,8 @@
 .freeT .metal .Mt .author div span{line-height:20px;}
 .freeT .metal .Mt .priceBox{color:#fff;background:#8ca9fc;font-size:14px; padding:8px 13px; height:62px; line-height:20px; border-radius:3px;}
 .freeT .metal .Mt .details{padding:10px 26px;background:#e4e9f9;}
-.freeT .metal .Mt .details .dts_0{width:239px;float:left;border-bottom:1px dashed #cccccc; line-height:50px; color:#989696;}
-.freeT .metal .Mt .details .dts .get{background:#8ca9fc; width:100%; line-height:40px; border-radius:25px; color:#fff; margin-top:10px; cursor:pointer; }
-.foot{padding:52px 38px; margin-top:40px;}
+.freeT .metal .Mt .details .dts_0{width:239px;float:left;border-bottom:1px dashed #cccccc; }
+.freeT .metal .Mt .details .dts_0 a{line-height:50px; color:#989696;}
+.freeT .metal .Mt .details .dts_0 a:hover{color:#444789;}
+.freeT .metal .Mt .details .dts .get{background:#8ca9fc; width:100%; line-height:40px; border-radius:25px; color:#fff; margin-top:10px; cursor:pointer; outline:none;}
+.foot{padding:52px 38px; margin-top:40px; }
