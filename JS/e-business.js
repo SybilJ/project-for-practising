@@ -106,15 +106,16 @@ var articalTitleData = [
 		href:"#", 
 	}
 ];
-function atAnchor(option){
+function atAnchor(option,index){
 	var a = document.createElement("a");
 	a.href = option.href;
 	a.innerText = option.name;
+	if(index%2==0){ a.style.color = "#4abea7"; };
 	return a;
 };
 var atFragment = document.createDocumentFragment();
-articalTitleData.forEach(function(item){
-	atFragment.appendChild(atAnchor(item));
+articalTitleData.forEach(function(item,index){
+	atFragment.appendChild(atAnchor(item,index));
 });
 document.getElementById("hotArtical").appendChild(atFragment);
 //-------------hightlights---------------------

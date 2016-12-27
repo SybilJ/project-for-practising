@@ -18,11 +18,12 @@
 .authors .authorBox div .authorName:hover,.authors .authorBox div .newest:hover{color:#d80707;}
 
 .hotArtical{padding-top:85px;}
+/*.headBlock{position:relative;}*/
 .headBlock .headBox{width:24.8%; height:70px; float:left; background:#5d8bc3; margin:1px; border-radius:8px 8px 0 0; cursor:pointer; margin-top:15px;}
 .headBlock .headBox:hover{background:#e2dfdf;}
 .headBlock .headBox p{color:#e7e9eb; width:75%; margin-left:; line-height:20px; margin-left:37px; margin-top:16px;}
 .headBlock .headBox:hover p{color:#5d8bc3; font-weight:bold;}
-.contentWrap .contentBody{float:left; padding:18px;}
+.contentWrap .contentBody{float:left; padding:18px; /*position:absolute; top:0px;*/}
 .contentWrap .contentBody img{ float:left; width:280px; height:200px; margin-right:20px; }
 .contentWrap .contentBody p{text-align:justify; line-height:26px; text-indent:2em;}
 .contentWrap .contentBody a{float:right;color:#e19002; border:1px solid #e19002; border-radius:3px; font-size:12px; padding:2px 5px; margin-right:5px;}

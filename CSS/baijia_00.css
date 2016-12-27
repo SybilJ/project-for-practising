@@ -1,36 +1,46 @@
 /*百家_00*/
-.banner,.section_1{width:1250px;margin:0 auto;padding:38px 0; overflow:hidden;}
+.banner,.section_1{width:1250px; margin:0 auto;padding:48px 0; overflow:hidden;}
 .banner_pic{width:521px;height:277px;background:url(../images/news1.jpg) no-repeat;
 		background-size:100%;float:left;position: relative;text-align:center;}
 .banner_pic .opacity{position:absolute;left:0;right:0;bottom:0;height:46px;
 		background:black;filter: alpha(opacity=50);opacity: 0.5;}
 .banner_pic .word{position: absolute;left:0;right:0;bottom:0;height:46px;
 		z-index:10;color:#fff;line-height:46px;}
-.banner .banner_con{float:right;width:668px;}
+.banner .banner_con{float:right;width:668px; position:relative; text-align:justify;}
+.banner .banner_con .readMore{position:absolute; right:5px; top:265px; color:#e19002; font-size:12px; }
 .banner h3{font-size:20px;font-family: 宋体;line-height:40px;margin-bottom:5px;}
 .banner p{font-size:10px;line-height:24px;text-indent:2em;}
 .news li{float:left; }
 .news img{width:60px;height:60px; border-radius:50%; display:block; float:left; margin-right:30px;margin-top:16px;}
 .news .sec1_con{float:left;width:500px;line-height:24px; }
 .news .sec1_con p{font-size:12px;}
-.news .sec1_con h3{font-family: 宋体;font-size:20px;line-height:40px;}
+.news .sec1_con h3{font-family: 宋体;font-size:20px;line-height:40px; cursor:pointer;}
+.banner .banner_con .readMore:hover, .banner h3:hover, .news .sec1_con h3:hover{color:#d80707;}
 
-.person{float:left;}
-.person .person_pic{float:left;width:114px;height:114px;background:#e5e5e5;border-radius: 50%;}
-.person .person_inf{float:left;padding-top:34px;padding-left:20px;}
-.person .person_inf p{font-size:18px;line-height:30px;}
-.person .person_inf span{color:#ababab;}
-.person .p_bottom{width:480px;height:78px;background:#e9e9e9;margin-top:20px;padding:30px 20px;
-		line-height:22px;}
-.skills{float:right;}
-.skills span{font-family:宋体;font-size:26px;font-weight:bold;}
-.skills .skills_list li{width:704px;background:#e1e1e1;margin-top:23px;line-height:36px;
-			border-radius:5px;}
-.skills .skills_list div{background:#f37d6c;color:#fff;padding-left:10px;}
-.skills .skills_list .skill_1{width:406px;}
-.skills .skills_list .skill_2{width:600px;}
-.skills .skills_list .skill_3{width:480px;}
-.skills .skills_list .skill_4{width:370px;}
+.ZhengMing{float:left; width:600px; height:290px; background:url(../images/zhengming.png) 55px -40px; position:relative;}
+.ZhengMing .opacity{position:absolute; top:0; right:0; bottom:0; left:0; background:#fff; filter:alpha(opacity=25); opacity:0.25; z-index:10;}
+.ZhengMing .zmBox{width:330px; z-index:20; position:absolute; bottom:20px; left:20px;}
+.ZhengMing .zmBox h2{color:#fc7d01; font-size:20px; line-height:42px; position:relative; }
+.ZhengMing .percent, .ZhengMing .len, .ZhengMing .txt{overflow:hidden;} 
+.ZhengMing .y, .ZhengMing .len_y, .ZhengMing .txt_y{float:left; color:#fff; font-size:24px;}
+.ZhengMing .n, .ZhengMing .len_n, .ZhengMing .txt_n{float:right; color:#fff; font-size:30px;}
+.ZhengMing .y, .ZhengMing .n{font-family:LinotypeUniversComp,Georgia;}
+.ZhengMing .txt_y, .ZhengMing .txt_n{font-size:18px; font-family:宋体; }
+.ZhengMing .len_y{height:8px; width:71%; background:#fc7d01;}
+.ZhengMing .len_n{height:8px; width:28%; background:#fc7d01;}
+.ZhengMing .len{margin:10px 0; }
+.ZhengMing .len .mark{width:12px; height:25px; background:url(../images/cursor_7d9c934.png) no-repeat; background-size:100%; position:absolute; top:68px; left:70%; z-index:30;}
+
+.skills{float:right; width:570px;}
+.skills h2{font-size:26px; padding:5px; font-weight:bold; width:100%; background:#ededee;}
+.skills ul li .topic{width:100%; line-height:25px; font-size:12px; overflow:hidden; background:#e4e9f9;}
+.skills ul li h3{line-height:36px; font-size:14px; font-family:宋体;}
+.skills ul li .topic .yes{float:left;background:#8ca9fc; color:#fff; padding-left:5px;}
+.skills ul li .topic .no{float:right; padding-right:5px; color:#999;}
+.skills ul li .topic .yes1{width:62%; }
+.skills ul li .topic .yes2{width:70%; }
+.skills ul li .topic .yes3{width:59%; }
+.skills ul li .topic .yes4{width:43%; }
 
 .ourTeam{text-align: center;margin-top:30px;}
 .ourTeam h2{font-size:32px;font-weight:normal;font-family:宋体;color:#475168;}
@@ -40,4 +50,5 @@
 .ourTeam .celebrityBox img{width:200px;height:200px; border-radius:50%; margin:0 auto;}
 .ourTeam .celebrityBox .name{color:#f37c6b;line-height:40px;font-size: 18px;}
 .ourTeam .celebrityBox .intro a{font-size:12px; display:block;}
+.ourTeam .celebrityBox .intro a:hover{color:#f37569;}
 .foot{padding:58px;}
