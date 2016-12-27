@@ -1,0 +1,25 @@
+.section_1{width:1250px;margin:0 auto;padding:38px 0;}
+
+.freeTrial{padding:90px 109px;width:1290px;}
+.freeTrial h2{font-family:宋体;font-size:30px;color:#475168;}
+.freeTrial .hot_artical{overflow:hidden; margin-bottom:40px;}
+.freeTrial .hot_artical .con{width:680px; float:left; padding:20px; position:relative;}
+.freeTrial .hot_artical .con h3{font-size:20px; line-height:48px; margin-bottom:5px;}
+.freeTrial .hot_artical .con p{line-height:24px; text-indent:2em; padding:0 0 4px 5px; text-align:justify; }
+.freeTrial .hot_artical .con a{position:absolute; top:360px; right:30px; color:#e19002;}
+.freeTrial .hot_artical .con a:hover{color:#d80707;}
+.freeTrial .hot_artical img{float:right; width:550px; margin-top:10px;}
+.freeTrial .metal{float:left;margin-right:35px;}
+.freeT{margin-top:40px;}
+.freeT .metal .Mt{width:296px;}
+/*.freeT .metal .Mt .author{font-size:24px;font-family:宋体;line-height:74px;background:#eeeeee;}*/
+.freeT .metal .Mt .author{overflow:hidden; padding:15px;}
+.freeT .metal .Mt .author img{width:70px; height:70px; float:left; border-radius:50%; margin-right:15px;}
+.freeT .metal .Mt .author div{float:left; text-align:left; width:180px;}
+.freeT .metal .Mt .author div h3{font-size:16px; color:#2f2e2e; line-height:32px;}
+.freeT .metal .Mt .author div span{line-height:20px;}
+.freeT .metal .Mt .priceBox{color:#fff;background:#8ca9fc;font-size:14px; padding:8px 13px; height:62px; line-height:20px; border-radius:3px;}
+.freeT .metal .Mt .details{padding:10px 26px;background:#e4e9f9;}
+.freeT .metal .Mt .details .dts_0{width:239px;float:left;border-bottom:1px dashed #cccccc; line-height:50px; color:#989696;}
+.freeT .metal .Mt .details .dts .get{background:#8ca9fc; width:100%; line-height:40px; border-radius:25px; color:#fff; margin-top:10px; cursor:pointer; }
+.foot{padding:52px 38px; margin-top:40px;}
