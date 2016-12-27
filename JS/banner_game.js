@@ -1,102 +1,84 @@
-//
-var bannerData = [
-	// {
-	// 	title: "华谊兄弟收购英雄互娱暂告终止 未来或将持续推动",
-	// 	main:"英雄互娱（430127）发布公告称：因重大事项，公司自2016年10月13日起暂停转让公司股票，股票暂停转让期间，公司根据相关规定及时履行信息披露义务，积极推进该重大事项的各项工作。",
-	// 	href:"#",
-	// 	bgImg:"./images/banner1.jpg"
-	// },
-	// {
-	// 	title:"政策利好资本狂飙 2016是不是电子竞技的黄金时代？",
-	// 	main:"2016年电子竞技步入冲刺阶段，处于高速发展期。资本的大力推动、政策持续的利好与社会主流的持续关注，使整体电子竞技产业持续升温。",
-	// 	href:"#",
-	// 	bgImg:"./images/banner2.jpg"
-	// },
-	{
-		title:"蔡明宏：现在傻子才做单机，但我愿意做最傻那个",
-		main:"尽管成都的天气让蔡明宏非常不适，但当他来到中手游成都分公司“轩辕剑粉丝见面会”，看着台下那么多“大叔范”的粉丝高喊“我是玩你的游戏长大的”时，仍然难掩内心的暖意。",
-		href:"#",
-		bgImg:"./images/banner3.jpg"
-	}
+var data = [
+ 	{
+ 		title:'蔡明宏：现在傻子才做单机，但我愿意做最傻那个',
+ 		bg:'./images/banner3.jpg', 
+ 		href:'www.baidu.com'
+ 	},
+ 	{
+ 		title:'政策利好资本狂飙 2016是不是电子竞技的黄金时代？', 
+ 		bg:'./images/banner2.jpg',
+ 		href:'#'
+ 	},
+ 	{
+ 		title: ' ',
+ 		bg:'./images/banner1_2.jpg', 
+ 		href:'#'
+ 	},
+ 	{
+ 		title:"育碧《看门狗2》Steam玩家人数骤跌", 
+ 		bg:"./images/recent_news_4.jpg", 
+ 		href:"#"
+ 	}
 ];
-createBanner({
-	element:"banner",
-	data:bannerData
-});
-function createBanner(option){
-	var data = option.data,
-		dataLen = data.length,
-		element = document.getElementById(option.element),
-		fragment = document.createDocumentFragment(),
-		a = 0,
-		images = data.map(function(item){
-			return fragment.appendChild(createImage(item));
-		}),
-		timer = createTimer();
-	function createImage(option){
-		var a = document.createElement("a");
-		a.href = option.href;
-		a.className = "bannerWrap";
-		a.style.background = "url(" + option.bgImg + ")";
-		a.style.backgroundSize = "100% 100%";
-		a.innerHTML = "<div class=\"opacity\"></div>"
-					+ "<div class=\"product\">"
-					+ "<h3>" + option.title + "</h3>"
-					+ "<p>" + option.main + "</p>"
-					+ "</div>";
-		return a;
-	};
-	function createTimer(){
-		return setInterval(function(){
-			_a = a;
-			a = a >=dataLen - 1 ? 0 :a + 1;
-			images[_a].className = "";
-			images[a].className = "current";
-		},4000);
-	};
-	images[a].className = "current";
-	function createButton(className){
-		var i = document.createElement("i");
-		i.className = "icon " + className;
-		i.onclick = function(){
-			clearInterval(timer);
-			timer = createTimer();
-			var _a = a;
-			if(className === "previous"){
-				a = a > 0 ? a - 1 : dataLen - 1;
-			}else{
-				a = a >= dataLen - 1 ? 0 : a + 1;
-			}
-			images[_a].className = null;
-			images[a].className = "current";
-		};
-	};
-	images[a].className = "current";
-	fragment.appendChild(createButton("previous"));
-	fragment.appendChild(createButton("next"));
-	element.appendChild(fragment);
+
+var bigDiv=document.createElement('div');
+var left=document.createElement('div');
+var right=document.createElement('div');
+bigDiv.className='box';
+left.className='left';
+right.className='right';
+bigDiv.appendChild(left);
+bigDiv.appendChild(right);
+
+function addDiv(data){
+	var div = document.createElement('div');
+	div.style.backgroundImage = 'url(' + data.bg + ')';
+	div.style.backgroundSize = '1106px 600px';
+	var a = document.createElement('a');
+	a.innerHTML = '<div class=\"opacity\"></div>'
+				+ '<h2>' + data.title + '</h2>';
+	a.className = 'bannerHref';
+	a.href = data.href;
+	div.appendChild(a);
+	return div;
 };
 
-// var a = document.createElement("a"),
-// 				bannerWrap = document.createElement("div");
-// 			a.href = option.href;
-// 			bannerWrap.className = "bannerWrap";
-// 			bannerWrap.style.background = "url(" + option.bgImg + ")";
-// 			bannerWrap.style.backgroundSize = "100% 100%";
-// 			bannerWrap.innerHTML = "<div class=\"opacity\"></div>"
-// 									+ "<div class=\"arrow_l\"></div>"
-// 									+ "<div class=\"arrow_r\"></div>"
-// 									+ "<div class=\"product\">"
-// 									+ "<h3>" + option.title + "</h3>"
-// 									+ "<p>" + option.main + "</p>"
-// 									+ "</div>"
-// 									+ "<div class=\"pages_dots\">"
-// 									+ "<div class=\"dots\"></div>"
-// 									+ "<div class=\"dots\"></div>"
-// 									+ "<div class=\"dots\"></div>"
-// 									+ "</div>;"
-// 			a.appendChild(bannerWrap);
-// 			return a;
+var arr = data.map(function(item){  
+    var getDiv = addDiv(item);
+    bigDiv.appendChild(getDiv);
+    return getDiv ;   
+});
+
+var a = 0;
+arr[a].classList.add('transit'); 
+
+var play = function(){
+	_a = a;
+	a < arr.length - 1 ? a++ :a = 0;
+	arr[a].classList.add('transit');
+	arr[_a].classList.remove('transit');
+};
+document.getElementById("banner").appendChild(bigDiv);
+
+var time = setInterval(play, 4000);
+bigDiv.onmouseover = function(){  
+	clearInterval(time); 
+};
+bigDiv.onmouseout = function(){ 
+	time = setInterval(play,4000); 
+};
+left.onclick = function(){
+	_a = a;
+	a>0 ? a-- : a=arr.length-1; 
+	arr[a].classList.add('transit');
+	arr[_a].classList.remove('transit');
+};
+right.onclick = function(){
+	_a = a;
+	a<arr.length-1 ? a++ : a=0;
+	arr[a].classList.add('transit');
+	arr[_a].classList.remove('transit');
+};
 var flatLabData = [
 	{
 		bgPic:"./images/game_1.jpg",

@@ -151,7 +151,8 @@ function archiveAnchor(option){
 		var ul = document.createElement("ul");
 		option.options.forEach(function(item){
 			var li = document.createElement("li");
-			li.innerText = item.month + item.year;
+			li.innerHTML = "<a>" +
+			 item.month + item.year + "</a>";
 			ul.appendChild(li);
 		});
 		var more = document.createElement("li");

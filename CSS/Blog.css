@@ -46,7 +46,8 @@
 .sideBlock .tagsBox ul li{float:left; padding:5px 10px; margin-bottom:8px; margin-right:10px; border:1px solid #cfcdcd; border-radius:4px; font-size:12px; cursor:pointer;}
 .sideBlock .tagsBox ul li:hover{color:#00b9fe; border:1px solid #55cffc; background:#edecec;}
 
-.sideBlock .archive ul li{margin-left:20px;line-height:28px; font-size:16px; cursor:pointer; color:#999;}
-.sideBlock .archive ul li:hover{color:#1a83e5;}
+.sideBlock .archive ul li{margin-left:20px; cursor:pointer; }
+.sideBlock .archive ul li a{line-height:28px; font-size:16px; color:#999;}
+.sideBlock .archive ul li:hover a{color:#1a83e5;}
 .sideBlock .archive ul .checkMore{font-size:14px; color:#f77b6f;}
 .foot{padding:50px;}
