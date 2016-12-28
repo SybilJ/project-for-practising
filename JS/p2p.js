@@ -174,13 +174,31 @@ var currentHead = headBlock.getElementsByClassName("headBox");
 var currentBody = contentWrap.getElementsByClassName("contentBody");
 var headLen = currentHead.length,
 	bodyLen = currentBody.length;
+	
+currentBody[0].style.display = "block";
+
 for(var i=0;i<headLen;i++){
 	currentHead[i].index = i;
 	currentHead[i].onmouseover = function(){
-		for(var i=0;i<headLen[i];i++){
-		currentHead[i].className = "";
-		currentBody[i].style.display = "none";
+		for(var i=0;i<headLen;i++){
+			//currentHead[this.index].className = "headBox";
+			currentBody[i].style.display = "none";
 		}
+		this.className = "headChange";
 		currentBody[this.index].style.display = "block";
 	};
-};
+	currentHead[i].onmouseout = function(){
+		this.className = "headBox";
+	};
+};	
+	// for(var i=0;i<headLen;i++){
+	// 	console.log(currentHead[i]);
+	// 	currentHead[i].onmouseout = function(){
+	// 	currentHead[i].className = "headBox";
+	// 	}
+	// 	this.className = "headChange";
+	// };
+	// currentBody[i].onmouseover = function(){
+	// 	console.log(currentBody[i]);
+	// 	currentHead[i].className = "headBox";
+	// };
